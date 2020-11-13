@@ -1,3 +1,6 @@
 {
-    "package_name": "someProject"
+    "package_name": "someProject",
+    "_copy_without_render": [
+        "templates/*"
+    ]
 }
