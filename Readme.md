@@ -25,4 +25,28 @@ Now generate a python package uisng the cookiecutter template
 cookiecutter https://github.com/sankhaMukherjee/myBokeh
 ```
 
-and follow along the instructions
+and follow along the instructions. You will only need to provide
+information about the name of the project.
+
+### Create a server
+
+Once a project with name `name` has been created, use the command
+
+```
+bokeh serve --show `name`
+```
+
+to serve the model. Remember to be outside of the folder to
+serve the model.
+
+## Minimum requirements
+
+For running the code, create a virtual environment and install
+the following libraries:
+
+```
+python3 -m venv env 
+source env/bin/activate
+pip3 install --upgrade  pip
+pip3 install bokeh
+```
